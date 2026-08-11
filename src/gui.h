@@ -45,7 +45,7 @@ protected:
     CCLabelBMFont* clientId;
     CCLabelBMFont* clientSecret;
     void openTutorial(CCObject*) {
-        ShellExecuteA(nullptr, "open", "https://lynxdeer.xyz/autodeafen_setup.html", nullptr, nullptr, SW_SHOWNORMAL);
+        ShellExecuteA(nullptr, "open", "https://lynxdeer.com/autodeafen_setup.html", nullptr, nullptr, SW_SHOWNORMAL);
         log::info("opened docs");
     }
     void pasteClientId(CCObject*) {
